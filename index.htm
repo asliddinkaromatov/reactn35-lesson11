@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- start header -->
+    <header>
+        <nav class="navbar">
+            <div class="fater-1">
+                <img src="./img/logo.png" alt="loading">
+            </div>
+            <div class="fater-2">
+                <ul class="header-list">
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+               <a class="link" href="./pages/sign up.html">Log in</a>
+              <button>Open an account</button>
+              <button>EN</button>
+            </div>
+        </nav>
+    </header>
+    <!-- end header -->
+    <main>
+        <!-- start section 1 -->
+      <section>
+        <div class="container">
+            <img class="image" src="./img/logo.png" alt="loading">
+            <h1 class="text-2">Welcome to ByTrend!</h1>
+            <p class="text-3">Already have an account? <a class="link-2" href="./pages/sign up.html">Log in</a></p>
+            <form action="./pages/registratsiya.html"  target="_blank" autocomplete="on">
+                <label class="container-label"  for="first">First name</label>
+                <br>
+                <input class="input-container" name="first name" id="first" required type="text" placeholder="First name">
+                <label class="container-label-2" for="last">Last name</label>
+                <input class="input-container-2" name="last name" id="last" required type="text" placeholder="Last name">
+                <br>
+                <label class="container-label-3" for="birth">Birth date</label>
+                <input class="input-container-3" name="birthday" id="birth" required type="" placeholder="06.09.1995">
+                <p class="text">Gender</p>
+               <span class="style">
+                <input class="input-container-4" name="gender" required id="female" type="radio">
+                <label class="container-label-4" for="female">Female</label>
+               </span>
+                <span class="style-2">
+                    <input class="input-container-5" name="gender" required id="male" type="radio">
+                <label class="container-label-5" for="male">Male</label>
+                </span>
+                <br>
+                <label class="container-label-6" for="skype">Skype</label>
+                <input class="input-container-6" name="skype" id="skype" type="text" placeholder=" Your login Skype">
+                <br>
+                <label class="container-label-7" for="promo">Promo</label>
+                 <input class="input-container-7" name="promo" id="promo" type="text" placeholder= "Your promo">
+                 <br>
+                 <input class="btn" src="./pages/registratsiya.html" type="submit" value="continue ->">
+            </form>
+        </div>
+      </section>
+      <!-- end section 1 -->
+        <p class="text-4">©2020 All Rights Reserved. Lorem Technologies, Inc.</p>
+    </main>
+</body>
+</html>

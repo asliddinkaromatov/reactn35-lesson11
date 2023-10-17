@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4F8FA;
+}
+
+/* start header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 21px 99px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.fater-2 {
+    display: flex;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.header-list li {
+    margin-left: 51px;
+}
+
+.header-list a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link {
+    text-decoration: none;
+    margin-left: 28px;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 2px 8px;
+    border: 1px solid #D9D9D9;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.fater-2 button {
+    margin-left: 31px;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 2px 8px;
+    border: 1px solid #D9D9D9;
+    border-radius: 7px;
+    background-color: white;
+
+}
+
+/* end header */
+
+/* start container-1 */
+.container {
+    max-width: 496px;
+    margin: 0 auto;
+    margin-top: 124px;
+    padding: 40px;
+    /* text-align: center; */
+    border-radius: 10px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 4px 56px 0px rgba(0, 0, 0, 0.04), 0px 12px 16px 0px rgba(0, 0, 0, 0.04);
+}
+
+.image{
+    margin-left: 160px;
+    margin-bottom: 24px;
+}
+.text-2{
+    text-align: center;
+    margin-bottom: 16px;
+    color: rgba(0, 0, 0, 0.85);
+font-family: Segoe UI;
+font-size: 29px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.text-3{
+    text-align: center;
+    margin-bottom: 56px;
+    color: #444150;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.link-2{
+    color: var(--01-bab-3, #01BAB3);
+font-family: Segoe UI;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 162.5% */
+}
+
+
+
+
+.btn{
+    width: 100%;
+    padding: 12px 151px;
+    border-radius: 4px;
+background: var(--01-bab-3, #01BAB3);
+color: var(--ffffff, #FFF);
+text-align: center;
+font-family: Segoe UI;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border: none;
+} 
+
+/* end container-1
